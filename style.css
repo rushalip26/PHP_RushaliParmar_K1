@@ -1,0 +1,56 @@
+body {
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(120deg, rgb(168, 147, 242), rgb(239, 202, 134), rgb(132, 249, 130), pink);
+            background-size: 500% 500%;
+            animation: gd 10s ease infinite;
+            text-align: center;
+        }
+@keyframes gd {
+
+            0%,
+            100% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100%;
+            }
+        }
+button {
+background-color:brown;
+padding: 5px;
+border-radius: 10px;
+}
+button:hover{
+    background-color: bisque;
+}
+form{
+    width: 400px;
+    padding: 30px;
+    border: 1px solid rgb(247, 148, 148);
+    border-radius: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid rgb(244, 172, 172);
+}
+
+th {
+    background-color: rgb(102, 126, 234);
+    color: white;
+}
+
+/* Table row hover effect */
+tr:hover {
+    background-color: rgb(242, 242, 242);
+    transition: 0.3s;
+}
